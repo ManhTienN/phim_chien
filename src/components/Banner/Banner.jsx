@@ -3,7 +3,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./HeroSlider.css"; // tuỳ chỉnh css riêng nếu muốn
 
-const HeroSlider = ({ banners = [] }) => {
+const HeroSlider = ({ banners }) => {
   const settings = {
     dots: true,
     infinite: true,

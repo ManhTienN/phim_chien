@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import Banner from "./components/Banner/Banner";
 import Header from "./components/Header/Header";
 import MovieList from "./components/Movie/MovieList";
+import Home from "./pages/home";
 import { useState } from "react";
 import MovieSearch from "./components/Movie/MovieSearch";
 import { MovieProvider } from "./context/MovieDetailContext";
@@ -65,7 +66,7 @@ function App() {
       <MovieProvider>
         <div className="h-full bg-black text-white min-h-screen pb-10 relative">
           <Header onSearch={handleSearch} />
-          <Banner />
+          <Home />
           {searchData.length === 0 && (
             <MovieList title="Phim Hot" data={trendingMovies.slice(0, 10)} />
           )}

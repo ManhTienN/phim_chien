@@ -32,7 +32,6 @@ const Home = () => {
 
       {/* Các thành phần khác như danh sách phim, thể loại... */}
       <div className="mt-10 px-4 text-center text-gray-600">
-        <p>🎬 Các danh sách phim sẽ hiển thị ở đây sau này...</p>
       </div>
     </div>
   );
